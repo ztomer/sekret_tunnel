@@ -1,0 +1,16 @@
+Readme
+-------------
+NOTE:
+Tested on Ubuntu 14.04, kernel version 3.13.0-34, using gcc 4.8.2.
+Will NOT work on v2.6 kernels.
+
+1. Compilation:
+	$ make
+2. Loading the module:
+	$ insmod ./sekret_tunnel.ko
+3. displaying module output:
+	$ dmesg
+4. removing the module:
+	# rmmod sekret_tunnel
+5. display dmesg: dmesg | tail -20
+
